@@ -32,7 +32,7 @@ app.use(
 app.use(bodyParser.urlencoded({ extended: false }));
 
 const corsOptions = {
-  origin: "http://localhost:3000",
+  origin: process.env.Cors_URL,
   credentials: true,
 };
 
