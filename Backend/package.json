@@ -5,7 +5,7 @@
   "main": "server.js",
   "type": "module",
   "scripts": {
-    "start": "nodemon index.js",
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
@@ -32,6 +32,6 @@
     "passport-google-oauth20": "^2.0.0"
   },
   "devDependencies": {
-    "nodemon": "^3.1.4"
+    "nodemon": "^2.0.20"
   }
 }
